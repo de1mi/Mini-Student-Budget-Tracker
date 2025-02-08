@@ -1,5 +1,6 @@
+
 name=input("What is your name?  " )
-print(f"Welcome, to the Budget Tracker {name}! Your surest way to become prudency. \n")
+print(f"Welcome to the Budget Tracker, {name}! Your surest way to prudency. \n")
 
 user = True
 while user == True:
@@ -11,8 +12,7 @@ while user == True:
         savings = int(input("\n Savings:  N"))
         transport = int(input("\n Transport:  N"))
         subs = int(input("\n Subscriptions:  N"))
-        # user = False
-
+      
 #Totalling all of the expenses and summming up the rent and food for variable assignment.
         expenses= rent + food + savings + transport + subs
         important=rent + food
@@ -29,17 +29,13 @@ while user == True:
             if subs > (20/100)* expenses:
                 print("\n I also think you should cut down on your subscriptions!\n ")
         else: 
-            print (f"\n You can increase your savings by {round(((income - expenses) / income) * 100, 2)}%.")
             print("\n You are prudent enough, keep it up!\n ")
             print(f"\n Your remaining balance for the month is N{income-expenses}.")
+            print (f"\n You can increase your savings by {round(((income - expenses) / income) * 75, 2)}% of your income, {name}.")
 
-        if input("\n Do you want to run the program again? (Yes or No)"  ) == "No":
+        if input("\n Do you want to run the program again? (Yes or No)  " ).strip().lower() == "no":
             user = False
 #Returns the user to input the right format in case of errors.         
     except ValueError:
         print(f"\n Invalid input! Digits only, {name}.")
-        
-
-
-
-
+ 
