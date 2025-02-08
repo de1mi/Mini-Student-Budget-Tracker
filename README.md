@@ -16,24 +16,6 @@ A simple Python program designed to help students track their income and expense
 5. If they have remaining funds, the program suggests *how much they can save*.
 6. The user can choose to rerun the program.
 
-## Installation & Usage
-### Prerequisites
-- Python 3.x installed on your system.
-
-### Running the Program
-1. Clone this repository:
-   ```bash
-   git clone [GitHub Repo Link]
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd student-budget-tracker
-   ```
-3. Run the script:
-   ```bash
-   python budget_tracker.py
-   ```
-
 ## Example Output
 ```
 What is your name?  John
@@ -58,7 +40,7 @@ Your remaining balance for the month is N5000!
 ```
 
 ## Credits
-A huge thanks to @De-Oracle for helping with the logic and @ for assisting with function implementation, making this project more efficient! Super grateful for their input. 🙌
+A huge thanks to @De-ORaCle for helping with the logic and @WarithAdetayo for assisting with function implementation, making this project more efficient! Super grateful for their input. 🙌
 
 ## Contributions
 Feel free to fork this repository, suggest improvements, or submit pull requests if you have ideas to make this even better!
